@@ -32,3 +32,7 @@ curl -X 'GET' /\
 
 curl -i -X POST --data-binary @janeClass.json -H "Content-Type: application/json" https://\<ADB String\>.adb.us-ashburn-1.oraclecloudapps.com/ords/classmate/student_schedule/
 
+### 4. You can check the entry is inserted in the database by running the following SQL Query from the SQL Worksheet console-
+
+SELECT * FROM student_courses ORDER BY 1 ; 
+
